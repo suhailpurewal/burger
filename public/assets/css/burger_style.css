@@ -1,0 +1,16 @@
+.mainBanner {
+background-image: url("../img/burgerpattern2.jpg");
+color: brown;
+}
+body {
+background-color: gray;
+}
+.eat {
+color: darkgreen;
+}
+.eaten {
+color: red;
+}
+.addBurg {
+color: orange;
+}
