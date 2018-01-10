@@ -8,7 +8,7 @@
   <div class="burger-container">
     <div class="row main">
       <div class="col-md-6 col-xs-12">
-        <h1>Dream Burgers</h1>
+        <h1 class="eat">Dream Burgers</h1>
           {{#each burgers}}
             {{#unless this.devoured}}
             <div class="row burgers">
@@ -26,7 +26,7 @@
           {{/each}}
       </div>
       <div class="col-md-6 col-xs-12">
-        <h1>Devoured Burgers</h1>
+        <h1 class="eaten">Devoured Burgers</h1>
           {{#each burgers}}
             {{#if this.devoured}}
             <div class="row burgers">
@@ -45,7 +45,7 @@
       </div>
     </div>
     <div class="row bottom">
-      <h1>Add a Burger</h1>
+      <h1 class="addBurg">Add a Burger</h1>
       <form class="form-inline" action="burgers/create" method="POST">
         <div class="form-group">
           <label for="ca"><h4>Burger Name:</h4></label>
